@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ru.evgen.calculator.models"},{"l":"ru.evgen.calculator.sample"},{"l":"ru.evgen.calculator.services"},{"l":"ru.evgen.calculator.views"}];updateSearchResults();

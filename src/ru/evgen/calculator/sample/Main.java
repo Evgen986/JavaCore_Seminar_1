@@ -3,11 +3,23 @@ package ru.evgen.calculator.sample;
 import ru.evgen.calculator.services.CalculateService;
 
 /**
- * Точка входа в программу
+ * Точка входа в программу.
  */
-public class Main {
-    public static void main(String[] args) {
+public final class Main {
+    private Main() {
+    }
+
+    /**
+     * Метод входа в программу.
+     * @param args аргументы для точки входа
+     */
+    public static void main(final String[] args) {
         CalculateService service = new CalculateService();
-        service.start(args[0]);
+        service.start("7+5");
+        service.start("7-5");
+        service.start("7/5");
+        service.start("7*5");
+        service.start("dsfdsf");
+        service.start("5_6");
     }
 }

@@ -6,4 +6,4 @@ RUN mkdir ./out
 
 RUN javac -sourcepath ./src -d out ./src/ru/evgen/calculator/sample/Main.java
 
-CMD java -classpath ./out ru/evgen/calculator/sample/Main 5+7
+CMD java -classpath ./out ru/evgen/calculator/sample/Main
